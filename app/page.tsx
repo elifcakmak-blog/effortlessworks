@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <div className="home-container">
       <header className="header">
-        <Link href="/" className="logo-link">
+        <Link href="https://www.elifcakmak.blog/" className="logo-link">
           <Image src="/elifcakmaklogo.svg" alt="Elif Cakmak Logo" width={100} height={100} className="logo"/>
         </Link>
         <Link href="/" className="logo2-link">
