@@ -3,13 +3,13 @@
 @tailwind utilities;
 
 :root {
-  --background: #efe1ff; /* Light background */
+  --background: #504081; /* Light background */
   --foreground: #333; /* Dark text */
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #efe1ff;
+    --background: #504081;
     --foreground: #333;
   }
 }
@@ -24,7 +24,7 @@ body {
 
 
 .header {
-  background-color: #efe1ff; 
+  background-color: #504081; 
   display: flex;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   padding: 20px 40px;
@@ -42,7 +42,7 @@ body {
 
 .nav-link {
   text-decoration: none;
-  color: #504081;
+  color: #efe1ff;
   font-weight: 500;
   transition: color 0.3s;
   position: relative; /* For positioning the dot */
@@ -70,7 +70,7 @@ body {
 
 .newsletter-button {
   padding: 3px 10px;
-  background-color: #504081;
+  background-color: #1c0e45;
   color: #fef74b;
   border: none;
   border-radius: 5px;
@@ -100,8 +100,10 @@ body {
 }
 
 .logo {
-  width: 350px;
+  width: 150px;
   height: auto;
+  margin-left: 185px;
+  margin-right: 40px;
 }
 
 .logo2-link {
@@ -117,7 +119,7 @@ body {
 }
 
 .logo2 {
-  width: 100px;
+  width: 200px;
   height: auto;
 }
 
