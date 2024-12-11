@@ -1,94 +1,56 @@
-"use client"; // Add this directive to make this a client component
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+"use client"; //makes this a client component
 
-import Link from "next/link";
-import Image from "next/image";
-import { usePathname } from "next/navigation";
-import UnderConstruction from "./components/UnderConstruction/UnderConstruction";
+import Navigation from './0/0-navigation/navigation';
+import Footer from './0/0-footer/footer'; // Import Footer
+import CustomCursor from './0/0-cursor/page'; // Cursor Import
+import { useState, useEffect } from 'react';
+import Head from 'next/head'; // Import for adding elements to the <head>
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 export default function Home() {
-  const pathname = usePathname();
+  const [isMobile, setIsMobile] = useState(false); // State to track mobile view
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+  {/* Screen View Handling */}
+////////////////////////////////////////
+  useEffect(() => {
+    const updateScreenSize = () => {
+      setIsMobile(window.innerWidth <= 768); // Set to true if width is 768px or less
+    };
+    updateScreenSize(); // Run on mount
+    window.addEventListener("resize", updateScreenSize); // Listen for resize events
+    return () => window.removeEventListener("resize", updateScreenSize); // Cleanup
+  }, []);
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
   return (
     <div className="home-container">
-      <header className="header">
-        {/* First logo - Left-aligned */}
-        <div className="header-column header-left">
-          <Link href="https://www.elifcakmak.blog/" className="logo-link">
-            <Image
-              src="/elifcakmaklogo.svg"
-              alt="Elif Cakmak Logo"
-              width={100}
-              height={100}
-              className="logo"
-            />
-          </Link>
-        </div>
+      
+      {/* Add the font link */}
+      <Head>
+      <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap" rel="stylesheet" />
+      </Head>
 
-        {/* Second logo - Center-aligned */}
-        <div className="header-column header-center">
-          <Link href="/" className="logo2-link">
-            <Image
-              src="/effortlessworks.svg"
-              alt="Effortless Works Logo"
-              width={100}
-              height={100}
-              className="logo2"
-            />
-          </Link>
-        </div>
+      {/* Import Cursor */}
+      <CustomCursor />
+      
+      {/* Import Navigation */}
 
-        {/* Navigation - Right-aligned */}
-        <div className="header-column header-right">
-          <nav className="nav">
-            <Link
-              href="/"
-              className={`nav-link ${pathname === "/" ? "active" : ""}`}
-            >
-              Home
-            </Link>
-            <Link
-              href="/products"
-              className={`nav-link ${pathname === "/products" ? "active" : ""}`}
-            >
-              Products
-            </Link>
-            <Link
-              href="/services"
-              className={`nav-link ${pathname === "/services" ? "active" : ""}`}
-            >
-              Services
-            </Link>
-            <Link
-              href="/courses"
-              className={`nav-link ${pathname === "/courses" ? "active" : ""}`}
-            >
-              Courses
-            </Link>
-            <Link
-              href="/info"
-              className={`nav-link ${pathname === "/info" ? "active" : ""}`}
-            >
-              Info
-            </Link>
-            <Link
-              href="/contact"
-              className={`newsletter-button ${
-                pathname === "/contact" ? "active" : ""
-              }`}
-            >
-              Contact
-            </Link>
-          </nav>
-        </div>
-      </header>
-
-      {/* Use the UnderConstruction component */}
-      <UnderConstruction />
-
+      <Navigation />
       {/* Footer */}
-      <footer className="footer bg-gray-800 text-white py-8 text-center">
-        <p>&copy; 2024 Elif Cakmak. All Rights Reserved.</p>
-      </footer>
+
+      <Footer />
+
+
     </div>
   );
 }

@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { usePathname } from 'next/navigation'; // Import to get the current path
-import UnderConstruction from '../components/UnderConstruction/UnderConstruction'; // Import the new component
+import UnderConstruction from '../../0/0-UnderConstruction/UnderConstruction'; // Import the new component
 
 export default function Home() {
   const pathname = usePathname(); // Get current path
