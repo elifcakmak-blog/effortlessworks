@@ -2,10 +2,11 @@
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 "use client"; //makes this a client component
 
-import Navigation from './0/0-1-navigation/navigation';
-import Footer from './0/0-2-footer/footer'; // Import Footer
-import CustomCursor from './0/0-0-cursor/page'; // Cursor Import
+import Navigation from './000000/0-1-navigation/navigation';
+import Footer from './000000/0-2-footer/footer'; // Import Footer
+import CustomCursor from './000000/0-0-cursor/page'; // Cursor Import
 import Head from 'next/head'; // Import for adding elements to the <head>
+import UnderConstruction from './000000/0-4-UnderConstruction/UnderConstruction';
 
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -31,6 +32,10 @@ export default function Home() {
       {/* Import Navigation */}
 
       <Navigation />
+
+      {/* UnderConstruction */}
+      <UnderConstruction />
+
       {/* Footer */}
 
       <Footer />

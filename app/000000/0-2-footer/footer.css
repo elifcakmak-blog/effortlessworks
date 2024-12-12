@@ -1,0 +1,188 @@
+/* General styles for footer container */
+.footer {
+  background-color: #1c0e45;
+  color: #333;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 40px;
+  border: 10px solid transparent; /* Default transparent border */
+  transition: border-color 0.3s ease; /* Smooth transition for the border color */
+
+}
+
+.footer:hover {
+  border-color: #4bfe5a;
+}
+
+
+.footer-card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+/* Grid layout for columns */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 columns */
+  grid-auto-rows: minmax(150px, auto); /* Consistent row heights */
+  gap: 2rem;
+}
+
+/* Wrapper for each footer column */
+.footer-column-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%; /* Ensures the wrapper takes the height of the column */
+  
+}
+
+.footer-column-wrapper-card {
+  background-color: #504081;
+}
+
+.footer-column-wrapper-card h1{
+  margin-top: -10px;
+}
+
+/* Ensure all footer cards inside each column have consistent height */
+.footer-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%; /* Make sure the column fills the space */
+}
+
+/* Card styles */
+.footer-card {
+  background-color: #efe1ff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 150px; 
+}
+
+.footer-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.title-card {
+  background-color: #efe1ff;
+  height: 324px; 
+}
+
+/* Specific styles for Effortless Quest card */
+.effortless-quest-card {
+  grid-column: 3; /* Place in the 3rd column */
+  grid-row: 1 / span 5; /* Start at row 1 and span 5 rows */
+  background-color: #f3ef98; /* Optional: Make it stand out */
+  font-weight: bold;
+  padding: 2rem;
+  text-align: center;
+  height: 565px;
+}
+
+/* Footer links */
+.footer-link {
+  color: #007acc;
+  text-decoration: none;
+  font-weight: 500;
+  display: block;
+  margin-top: 0.5rem;
+}
+
+.footer-link:hover {
+  color: #005999;
+  text-decoration: none;
+}
+
+/* Footer columns */
+.footer-column {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+/* Responsive design */
+@media (min-width: 1024px) and (max-width: 1200px) {
+  .effortless-quest-card {
+    height: 590px;
+  }
+  .grid {
+    grid-template-columns: repeat(4, 1fr); /* 2 columns for medium screens */
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .effortless-quest-card {
+    height: 540px;
+  }
+  .grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns for medium screens */
+  }
+}
+
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footer-card {
+    height: 140px;
+    font-size: 10px;
+    margin-top: -10px;
+  }
+
+  .title-card {
+    height: 295px;
+  }
+
+  .effortless-quest-card {
+    height: 555px;
+  }
+
+  .footer-column-wrapper-card {
+    margin-left: 0px;
+    width: 200px;
+    margin-right: 00px;
+  }
+
+  .footer-column-wrapper-card h1{
+    font-size: 10px;
+    margin-top: -20px;
+  }
+}
+
+/* Footer bottom links */
+.footer-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.footer-links a {
+  color: #efe1ff;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  color: #4bfe5a;
+}
+
+/* Copyright text */
+.footer-copyright {
+  font-size: 0.8rem;
+  color: #efe1ff;
+  margin-top: 1rem;
+}
+
