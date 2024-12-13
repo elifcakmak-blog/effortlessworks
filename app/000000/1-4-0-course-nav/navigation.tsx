@@ -21,7 +21,7 @@ const Navigation = () => {
         <Link href="/000002/courses" className={`nav-link ${pathname === '/000002/courses' ? 'active' : ''}`}>Courses 📚</Link>
         <Link href="/000006/productvideos" className={`nav-link ${pathname === '/000006/productvideos' ? 'active' : ''}`}>Product Videos</Link>
         <Link href="/000006/selfpaced" className={`nav-link ${pathname === '/000006/selfpaced' ? 'active' : ''}`}>Self Paced</Link>
-        <Link href="/000006/instructorlead" className={`nav-link ${pathname === '/000006/instructorlead' ? 'active' : ''}`}>Instructor Lead</Link>
+        <Link href="/000006/instructorled" className={`nav-link ${pathname === '/000006/instructorled' ? 'active' : ''}`}>Instructor Led</Link>
       </nav>
     </header>
   );

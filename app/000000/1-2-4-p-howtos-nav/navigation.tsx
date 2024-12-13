@@ -22,7 +22,7 @@ const Navigation = () => {
         <Link href="/000004/p-howtos" className={`nav-link ${pathname === '/000004/p-howtos' ? 'active' : ''}`}>How Tos 🎥</Link>
         <Link href="/000015/p-productvideos" className={`newsletter-button ${pathname === '/000015/p-productvideos' ? 'active' : ''}`}>Product Videos</Link>
         <Link href="/000015/p-selfpaced" className={`newsletter-button ${pathname === '/000015/p-selfpaced' ? 'active' : ''}`}>Self Paced Courses</Link>
-        <Link href="/000015/p-instructorlead" className={`newsletter-button ${pathname === '/000015/p-instructorlead' ? 'active' : ''}`}>Instructor Lead Courses</Link>
+        <Link href="/000015/p-instructorled" className={`newsletter-button ${pathname === '/000015/p-instructorled' ? 'active' : ''}`}>Instructor Led Courses</Link>
       </nav>
     </header>
   );
