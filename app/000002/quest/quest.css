@@ -1,0 +1,150 @@
+.quest-speech {
+  width: 100%; /* Make the card take up the full width of the page */
+  max-width: 1200px; /* Optional: Max width to prevent the card from stretching too wide */
+  padding: 20px;
+  border-radius: 10px;
+  border: 5px solid #1c0e45;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #8958f0;
+  text-align: center;
+  margin: 0 auto; /* Centers the card horizontally */
+  position: relative;
+  top: 150px;
+  margin-bottom: 200px;
+  overflow: hidden;
+  height: 250px;
+  margin-top: -100px;
+  margin-right: 20px;
+  color: #fef74b; /* Change to your desired color */
+  font-size: 1.2rem; /* Customize font size as needed */
+  font-weight: bold; /* Optional: make the text bold */
+}
+
+.quest-speech:hover {
+  border-color: #fef74b;
+}
+
+
+.quest-container {
+  display: flex;
+  align-items: center; /* Align items vertically in the center */
+}
+
+.sword-image {
+  margin-right: -60px;
+}
+
+.sword-image2 {
+  margin-left: -50px;
+  
+}
+
+.image-container {
+  display: flex;
+  align-items: center; /* Vertically center the images and the button */
+  justify-content: center; /* Horizontally center the images and button */
+  gap: 0px; /* Space between images and the button */
+}
+
+.bug-button {
+  padding: 10px 100px;
+  background-color: #f4a261; /* Set your desired button color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  margin-left: 20px;
+  text-align: center; 
+}
+
+.bug-button:hover {
+  background-color: #e76f51; /* Hover effect */
+}
+
+//* Mobile-specific styles */
+@media (max-width: 480px) {
+  .image-container {
+    display: flex;
+    align-items: center; /* Vertically center the images and the button */
+    justify-content: center; /* Horizontally center the images and button */
+    gap: 0px; /* Space between images and the button */
+  }
+
+  .sword-image,
+  .sword-image2 {
+    width: 50px;  /* Make the images smaller */
+    height: 85px; /* Adjust the height proportionally */
+  }
+
+  .sword-image {
+    margin-right: -20px;
+  }
+  
+  .sword-image2 {
+    margin-left: -10px;
+  }
+
+  .bug-button {
+    padding: 12px 25px;        /* Adjust padding to control space inside the button */
+    font-size: 10px;           /* Smaller font size for mobile */
+    width: 150px;              /* Adjusted width to accommodate the text */
+    text-align: center;        /* Center the text horizontally */
+    display: inline-flex;      /* Make it flexible to allow alignment */
+    justify-content: center;   /* Ensure the content inside the button is centered horizontally */
+    align-items: center;       /* Vertically center the text */
+  }
+  
+  .quest-image {
+    height: 200px;
+    width: 200px;
+  }
+}
+
+/* Tablet and smaller screen sizes */
+@media (min-width: 481px) and (max-width: 768px) {
+  .image-container {
+    display: flex;
+    align-items: center; /* Vertically center the images and the button */
+    justify-content: center; /* Horizontally center the images and button */
+    gap: 0px; /* Space between images and the button */
+  }
+
+  .sword-image,
+  .sword-image2 {
+    width: 50px;  /* Make the images smaller */
+    height: 85px; /* Adjust the height proportionally */
+  }
+
+  .sword-image {
+    margin-right: -20px;
+  }
+  
+  .sword-image2 {
+    margin-left: -10px;
+  }
+
+  .bug-button {
+    padding: 12px 25px;        /* Adjust padding to control space inside the button */
+    font-size: 10px;           /* Smaller font size for mobile */
+    width: 150px;              /* Adjusted width to accommodate the text */
+    text-align: center;        /* Center the text horizontally */
+    display: inline-flex;      /* Make it flexible to allow alignment */
+    justify-content: center;   /* Ensure the content inside the button is centered horizontally */
+    align-items: center;       /* Vertically center the text */
+  }
+}
+
+/* Larger screens between 769px and 900px */
+@media (min-width: 769px) and (max-width: 900px) {
+  .bug-button {
+    padding: 12px 25px;        /* Adjust padding to control space inside the button */
+    font-size: 10px;           /* Smaller font size for mobile */
+    width: 150px;              /* Adjusted width to accommodate the text */
+    text-align: center;        /* Center the text horizontally */
+    display: inline-flex;      /* Make it flexible to allow alignment */
+    justify-content: center;   /* Ensure the content inside the button is centered horizontally */
+    align-items: center;       /* Vertically center the text */
+  }
+}

@@ -43,7 +43,7 @@
     transform: translateY(-50%);
   }
   
-  .newsletter-button {
+  .Home-button {
     padding: 3px 10px;
     background-color: #f3ef98;
     color: #504081;
@@ -53,9 +53,34 @@
     transition: background-color 0.3s;
   }
   
-  .newsletter-button:hover {
+  .Home-button:hover {
     background-color: #504081;
     color: #4bfe5a;
+  }
+  
+  .newsletter-button {
+    padding: 3px 10px;
+    background-color: #504081;
+    color: #4bfe5a;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .newsletter-button:hover {
+    background-color: #f3ef98;
+    color: #504081;
+  }
+
+  .newsletter-button.active {
+    background-color: #f3ef98; /* Change the background color when active */
+    color: #504081; /* Adjust text color if needed */
+    border: none; /* Optional: Remove border if needed */
+    border-radius: 5px; /* Optional: Add border radius */
+    padding: 3px 10px; /* Optional: Adjust padding */
+    cursor: pointer; /* Optional: Make it a pointer cursor */
+    transition: background-color 0.3s; /* Smooth transition for background color change */
   }
   
   .newsletter-button.active::after {
