@@ -22,25 +22,25 @@ const Footer: React.FC = () => {
                   />
                   <div className="footer-card p-6 shadow-md rounded-md text-center">
                     <h1 className="text-2xl font-bold">Services</h1>
-                    <a href="/2/services" className="footer-link">Services</a>
-                    <a href="/2/services" className="footer-link">Services</a>
-                    <a href="/2/services" className="footer-link">Services</a>
+                    <a href="/000008/website" className="footer-link">Website Builder</a>
+                    <a href="/000008/app" className="footer-link">App Builder</a>
+                    <a href="/000008/onboarding" className="footer-link">Onboarding Builder</a>
                   </div>
                   <div className="footer-card p-6 shadow-md rounded-md text-center">
                     <h1 className="text-2xl font-bold">Back Office</h1>
-                    <a href="/2/back-office" className="footer-link">Google Sheets</a>
-                    <a href="/2/back-office" className="footer-link">Notion</a>
+                    <a href="/000009/bo-sheets" className="footer-link">Google Sheets</a>
+                    <a href="/000009/bo-notion" className="footer-link">Notion</a>
                   </div>
                   <div className="footer-card p-6 shadow-md rounded-md text-center">
-                    <h1 className="text-2xl font-bold">Projects</h1>
-                    <a href="/2/back-office" className="footer-link">Google Sheets</a>
-                    <a href="/2/back-office" className="footer-link">Notion</a>
+                    <h1 className="text-2xl font-bold">Project Management</h1>
+                    <a href="/000010/pm-sheets" className="footer-link">Google Sheets</a>
+                    <a href="/000010/pm-notion" className="footer-link">Notion</a>
                   </div>
                   <div className="footer-card p-6 shadow-md rounded-md text-center">
                     <h1 className="text-2xl font-bold">How Tos</h1>
-                    <a href="/2/how-tos" className="footer-link">How Tos</a>
-                    <a href="/2/how-tos" className="footer-link">How Tos</a>
-                    <a href="/2/how-tos" className="footer-link">How Tos</a>
+                    <a href="/000011/b-productvideos" className="footer-link">Product Videos</a>
+                    <a href="/000011/b-selfpaced" className="footer-link">Self Paced Courses</a>
+                    <a href="/000011/b-instructorled" className="footer-link">Instructor Led Courses</a>
                   </div>
                 </div>
               </div>
@@ -57,24 +57,24 @@ const Footer: React.FC = () => {
                   />
                   <div className="footer-card p-6 shadow-md rounded-md text-center">
                     <h1 className="text-2xl font-bold">Life Tracker</h1>
-                    <a href="/2/back-office" className="footer-link">Google Sheets</a>
-                    <a href="/2/back-office" className="footer-link">Notion</a>
+                    <a href="/000012/lt-sheets" className="footer-link">Google Sheets</a>
+                    <a href="/000012/lt-notion" className="footer-link">Notion</a>
                   </div>
                   <div className="footer-card p-6 shadow-md rounded-md text-center">
-                    <h1 className="text-2xl font-bold">Personal Tracker</h1>
-                    <a href="/2/back-office" className="footer-link">Google Sheets</a>
-                    <a href="/2/back-office" className="footer-link">Notion</a>
+                    <h1 className="text-2xl font-bold">Personal Trackers</h1>
+                    <a href="/000013/pt-sheets" className="footer-link">Google Sheets</a>
+                    <a href="/000013/pt-notion" className="footer-link">Notion</a>
                   </div>
                   <div className="footer-card p-6 shadow-md rounded-md text-center">
                     <h1 className="text-2xl font-bold">Personal Projects</h1>
-                    <a href="/2/back-office" className="footer-link">Google Sheets</a>
-                    <a href="/2/back-office" className="footer-link">Notion</a>
+                    <a href="/000014/pp-sheets" className="footer-link">Google Sheets</a>
+                    <a href="/000014/pp-notion" className="footer-link">Notion</a>
                   </div>
                   <div className="footer-card p-6 shadow-md rounded-md text-center">
                     <h1 className="text-2xl font-bold">How Tos</h1>
-                    <a href="/2/how-tos" className="footer-link">How Tos</a>
-                    <a href="/2/how-tos" className="footer-link">How Tos</a>
-                    <a href="/2/how-tos" className="footer-link">How Tos</a>
+                    <a href="/000015/p-productvideos" className="footer-link">Product Videos</a>
+                    <a href="/000015/p-selfpaced" className="footer-link">Self Paced Courses</a>
+                    <a href="/000015/p-instructorled" className="footer-link">Instructor Led Courses</a>
                   </div>
                 </div>
               </div>
@@ -91,9 +91,9 @@ const Footer: React.FC = () => {
                   />
                   <div className="footer-card effortless-quest-card p-6 shadow-md rounded-md text-center">
                     <h1 className="text-2xl font-bold">Effortless Quest</h1>
-                    <a href="/3/about" className="footer-link">Learn More</a>
-                    <a href="/3/about" className="footer-link">Learn More</a>
-                    <a href="/3/about" className="footer-link">Learn More</a>
+                    <a href="/000005/about" className="footer-link">About</a>
+                    <a href="/000005/howtoplay" className="footer-link">How To Play</a>
+                    <a href="/000005/roadmap" className="footer-link">Road Map</a>
                   </div>
                 </div>
               </div>
@@ -111,22 +111,36 @@ const Footer: React.FC = () => {
                   
                   <div className="footer-card title-card p-6 shadow-md rounded-md text-center">
                     <h1 className="text-2xl font-bold">Elif Çakmak</h1>
-                    <a href="/2/elif" className="footer-link">About Me</a>
-                    <a href="/2/elif" className="footer-link">About Me</a>
-                    <a href="/2/elif" className="footer-link">About Me</a>
-                    <a href="/2/elif" className="footer-link">About Me</a>
-                    <a href="/2/elif" className="footer-link">About Me</a>
-                    <a href="/2/elif" className="footer-link">About Me</a>
-                    <a href="/2/elif" className="footer-link">About Me</a>
+                    <a href="https://www.elifcakmak.blog/2/about" className="footer-link">About Me</a>
+                    <a href="https://www.elifcakmak.blog/2/videos" className="footer-link">Videos</a>
+                    <a href="https://www.elifcakmak.blog/2/podcast" className="footer-link">Podcast</a>
+                    <a href="https://www.elifcakmak.blog/2/apps" className="footer-link">Apps</a>
+                    <a href="https://www.elifcakmak.blog/2/books" className="footer-link">Books</a>
+                    <a href="https://www.elifcakmak.blog/3" className="footer-link">Road Map</a>
+                    <a href="https://www.elifcakmak.blog/2/newsletter" className="footer-link">Newsletter</a>
                   </div>
+
+                  
                   <div className="footer-card title-card p-6 shadow-md rounded-md text-center">
-                    <h1 className="text-2xl font-bold">Easy Flow Media</h1>
-                    <a href="/2/easy-flow" className="footer-link">Explore</a>
-                    <a href="/2/easy-flow" className="footer-link">Explore</a>
-                    <a href="/2/easy-flow" className="footer-link">Explore</a>
-                    <a href="/2/easy-flow" className="footer-link">Explore</a>
-                    <a href="/2/easy-flow" className="footer-link">Explore</a>
-                    <a href="/2/easy-flow" className="footer-link">Explore</a>
+                    <h1 className="text-2xl font-bold mb-6">Easy Flow Media</h1>
+                    <a href="https://www.facebook.com/profile.php?id=61569395896969" target="_blank" rel="noopener noreferrer">
+                      <img src="/social-media-logos/facebook.svg" alt="Facebook" className="social-icon" />
+                    </a>
+                    <a href="https://www.instagram.com/easyflow.media" target="_blank" rel="noopener noreferrer">
+                      <img src="/social-media-logos/instagram.svg" alt="Instagram" className="social-icon" />
+                    </a>
+                    <a href="https://www.tiktok.com/@easyflow.media" target="_blank" rel="noopener noreferrer">
+                      <img src="/social-media-logos/tiktok.svg" alt="TikTok" className="social-icon" />
+                    </a>
+                    <a href="https://www.youtube.com/@EasyFlow-Media" target="_blank" rel="noopener noreferrer">
+                      <img src="/social-media-logos/youtube.svg" alt="YouTube" className="social-icon" />
+                    </a>
+                    <a href="https://www.linkedin.com/in/elif-cakmak/" target="_blank" rel="noopener noreferrer">
+                      <img src="/social-media-logos/linkedin.svg" alt="LinkedIn" className="social-icon" />
+                    </a>
+                    <a href="https://x.com/EasyFlow_Media" target="_blank" rel="noopener noreferrer">
+                      <img src="/social-media-logos/twitter.svg" alt="Twitter" className="social-icon" />
+                    </a>
                   </div>
                 </div>
               </div>

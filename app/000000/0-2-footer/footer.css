@@ -72,6 +72,21 @@
   box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
 }
 
+/* Social Icon Styling */
+.social-icon {
+  width: 24px; /* Visible size */
+  height: 24px;
+  margin-top: 40px;
+  margin: 0 auto; /* Centers horizontally */
+  display: block; /* Ensures margin auto works for images */
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.social-icon:hover {
+  transform: scale(1.2); /* Slight zoom on hover */
+}
+
 .title-card {
   background-color: #efe1ff;
   height: 324px; 
@@ -90,7 +105,7 @@
 
 /* Footer links */
 .footer-link {
-  color: #007acc;
+  color: #1c0e45;
   text-decoration: none;
   font-weight: 500;
   display: block;
@@ -132,6 +147,11 @@
 @media (max-width: 768px) {
   .grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .social-icon {
+    width: 20px; /* Visible size */
+    height: 20px;
   }
 
   .footer-card {

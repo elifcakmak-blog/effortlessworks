@@ -19,7 +19,7 @@ const Navigation = () => {
       <nav className="nav">
         <Link href="/" className={`Home-button ${pathname === '/' ? 'active' : ''}`}onClick={(e) => { e.preventDefault();window.location.href = "/";}}>Main Home</Link>
         <Link href="/000002/individual" className={`nav-link ${pathname === '/000002/individual' ? 'active' : ''}`}>Individuals 🏠</Link>
-        <Link href="/000004/personaltracker" className={`nav-link ${pathname === '/000004/personaltracker' ? 'active' : ''}`}>Personal Tracker 👤</Link>
+        <Link href="/000004/personaltracker" className={`nav-link ${pathname === '/000004/personaltracker' ? 'active' : ''}`}>Personal Trackers 👤</Link>
         <Link href="/000013/pt-sheets" className={`newsletter-button ${pathname === '/000013/pt-sheets' ? 'active' : ''}`}>Sheets</Link>
         <Link href="/000013/pt-notion" className={`newsletter-button ${pathname === '/000013/pt-notion' ? 'active' : ''}`}>Notion</Link>
       </nav>

@@ -20,7 +20,7 @@ const Navigation = () => {
       <Link href="/" className={`Home-button ${pathname === '/' ? 'active' : ''}`}onClick={(e) => { e.preventDefault();window.location.href = "/";}}>Main Home</Link>
         <Link href="/000002/individual" className={`nav-link ${pathname === '/000002/individual' ? 'active' : ''}`}>Individuals 🏠</Link>
         <Link href="/000004/lifetracker" className={`newsletter-button ${pathname === '/000004/lifetracker' ? 'active' : ''}`}>Life Tracker</Link>
-        <Link href="/000004/personaltracker" className={`newsletter-button ${pathname === '/000004/personaltracker' ? 'active' : ''}`}>Personal Tracker</Link>
+        <Link href="/000004/personaltracker" className={`newsletter-button ${pathname === '/000004/personaltracker' ? 'active' : ''}`}>Personal Trackers</Link>
         <Link href="/000004/personalprojects" className={`newsletter-button ${pathname === '/000004/personalprojects' ? 'active' : ''}`}>Personal Projects</Link>
         <Link href="/000004/p-howtos" className={`newsletter-button ${pathname === '/000004/p-howtos' ? 'active' : ''}`}>How Tos</Link>
       </nav>
