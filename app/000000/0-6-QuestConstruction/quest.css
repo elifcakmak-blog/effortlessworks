@@ -1,6 +1,6 @@
 .notfloating-card {
   width: 100%; /* Make the card take up the full width of the page */
-  max-width: 200px; /* Optional: Max width to prevent the card from stretching too wide */
+  max-width: 190px; /* Optional: Max width to prevent the card from stretching too wide */
   padding: 20px;
   border-radius: 10px;
   border: 5px solid #333;

@@ -92,7 +92,7 @@ const Footer: React.FC = () => {
                   />
                   <div className="footer-card effortless-quest-card p-6 shadow-md rounded-md text-center">
                     <div>
-                      <h1 className="text-2xl font-bold mb-6">Effortless⚔️Quest</h1>
+                      <h1 className="text-2xl font-bold mb-6">Effortless Quest</h1>
                       <a href="/000005/about" className="footer-link">About</a>
                       <a href="/000005/howtoplay" className="footer-link">How To Play</a>
                       <a href="/000005/roadmap" className="footer-link">Road Map</a>
