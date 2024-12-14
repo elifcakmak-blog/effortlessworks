@@ -176,6 +176,10 @@
     height: 500px; /* Adjust the height of the special card */
   }
 
+  .effortless-quest-card .footer-link {
+    font-size: 11px;
+  }
+
   .footer-column-wrapper-card {
     margin-left: 0px;
     width: 100%; /* Take full width on mobile */
