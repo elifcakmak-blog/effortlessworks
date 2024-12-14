@@ -163,7 +163,7 @@
   }
 
   .footer-card {
-    height: 160px; /* Reduce height for footer cards on mobile */
+    height: 170px; /* Reduce height for footer cards on mobile */
     padding: 1rem; /* Adjust padding */
     font-size: 10.5px; /* Adjust text size */
   }
