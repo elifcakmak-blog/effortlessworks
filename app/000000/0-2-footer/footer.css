@@ -165,7 +165,7 @@
   .footer-card {
     height: 160px; /* Reduce height for footer cards on mobile */
     padding: 1rem; /* Adjust padding */
-    font-size: 11px; /* Adjust text size */
+    font-size: 10.5px; /* Adjust text size */
   }
 
   .title-card {
