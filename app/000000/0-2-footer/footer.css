@@ -96,11 +96,21 @@
 .effortless-quest-card {
   grid-column: 3; /* Place in the 3rd column */
   grid-row: 1 / span 5; /* Start at row 1 and span 5 rows */
-  background-color: #f3ef98; /* Optional: Make it stand out */
+  background-color: rgb(56, 177, 54); /* Optional: Make it stand out */
   font-weight: bold;
   padding: 2rem;
   text-align: center;
   height: 545px;
+  color:rgb(16, 19, 17); 
+}
+
+.effortless-quest-card .footer-link {
+  color:rgb(255, 255, 255); /* Default link color (yellow) */
+  margin: 5px 0; /* Space between links */
+  margin-left: -2px;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
 }
 
 /* Footer links */

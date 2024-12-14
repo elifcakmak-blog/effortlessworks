@@ -2,6 +2,7 @@
 
 import React from "react";
 import "./footer.css";
+import QuestFooter from "../0-6-QuestConstruction/UnderConstruction";
 
 const Footer: React.FC = () => {
   return (
@@ -90,10 +91,13 @@ const Footer: React.FC = () => {
                     className="w-[300px] h-auto mb-5 mx-auto"
                   />
                   <div className="footer-card effortless-quest-card p-6 shadow-md rounded-md text-center">
-                    <h1 className="text-2xl font-bold">Effortless Quest</h1>
-                    <a href="/000005/about" className="footer-link">About</a>
-                    <a href="/000005/howtoplay" className="footer-link">How To Play</a>
-                    <a href="/000005/roadmap" className="footer-link">Road Map</a>
+                    <div>
+                      <h1 className="text-2xl font-bold mb-6">Effortless⚔️Quest</h1>
+                      <a href="/000005/about" className="footer-link">About</a>
+                      <a href="/000005/howtoplay" className="footer-link">How To Play</a>
+                      <a href="/000005/roadmap" className="footer-link">Road Map</a>
+                    </div>
+                    <QuestFooter />
                   </div>
                 </div>
               </div>
