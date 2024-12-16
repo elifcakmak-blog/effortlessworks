@@ -20,6 +20,7 @@ const Navigation = () => {
       <Link href="/" className={`newsletter-button ${pathname === '/' ? 'active' : ''}`}onClick={(e) => { e.preventDefault();window.location.href = "/";}}>Main Home</Link>
         <Link href="/000002/business" className={`nav-link ${pathname === '/000002/business' ? 'active' : ''}`}>Business 🏢</Link>
         <Link href="/000002/individual" className={`nav-link ${pathname === '/000002/individual' ? 'active' : ''}`}>Individuals 🏠</Link>
+        <Link href="/000002/services" className={`nav-link ${pathname === '/000002/services' ? 'active' : ''}`}>Build Your Own ➡️</Link>
         <Link href="/000002/quest" className={`nav-link ${pathname === '/000002/quest' ? 'active' : ''}`}>Quest ⚔️</Link>
         <Link href="/000002/courses" className={`nav-link ${pathname === '/000002/courses' ? 'active' : ''}`}>Courses 📚</Link>
         <Link href="/000002/info" className={`nav-link ${pathname === '/000002/info' ? 'active' : ''}`}>Info ℹ️</Link>

@@ -19,11 +19,12 @@ const Navigation = () => {
       </Link>
       <nav className="nav">
         <Link href="/" className={`Home-button ${pathname === '/' ? 'active' : ''}`}onClick={(e) => { e.preventDefault();window.location.href = "/";}}>Main Home</Link>
-        <Link href="/000002/business" className={`nav-link ${pathname === '/000002/business' ? 'active' : ''}`}>Business 🏢</Link>
-        <Link href="/000003/services" className={`nav-link ${pathname === '/000003/services' ? 'active' : ''}`}>Services 🔧</Link>
+        <Link href="/000002/services" className={`nav-link ${pathname === '/000003/services' ? 'active' : ''}`}>Build Your Own ➡️</Link>
         <Link href="/000008/website" className={`newsletter-button ${pathname === '/000008/website' ? 'active' : ''}`}>Website</Link>
         <Link href="/000008/app" className={`newsletter-button ${pathname === '/000008/app' ? 'active' : ''}`}>App</Link>
-        <Link href="/000008/onboarding" className={`newsletter-button ${pathname === '/000008/onboarding' ? 'active' : ''}`}>Onboarding</Link>
+        <Link href="/000008/onboarding" className={`newsletter-button ${pathname === '/000008/onboarding' ? 'active' : ''}`}>Onboarding Course</Link>
+        <Link href="/000008/sheets" className={`newsletter-button ${pathname === '/000008/sheets' ? 'active' : ''}`}>Sheets System</Link>
+        <Link href="/000008/notion" className={`newsletter-button ${pathname === '/000008/notion' ? 'active' : ''}`}>Notion System</Link>
       </nav>
     </header>
   );
