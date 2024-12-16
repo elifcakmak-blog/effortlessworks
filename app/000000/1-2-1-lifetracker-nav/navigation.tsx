@@ -13,7 +13,7 @@ const Navigation = () => {
       <Link href="/"className="logo-link"onClick={(e) => {e.preventDefault();window.location.href = "/";}}>
         <Image src="/elif-logo/effortlessworksdark.svg" alt="Elif Çakmak Logo" width={100} height={100} />
       </Link>
-      <Link href="https://www.elifcakmak.blog/" className="logo-link">
+      <Link href="/000002/individual" className="logo-link">
         <Image src="/nav-titles/indv-nav.svg" alt="Elif Çakmak Logo" width={300} height={300}  />
       </Link>
       <nav className="nav">
